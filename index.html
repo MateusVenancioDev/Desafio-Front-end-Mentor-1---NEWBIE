@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>FT Desafio 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="left-title">
+          <span>Your Result</span>
+        </div>
+        <div class="punctuation">
+          <span id="percentage">76</span>
+          <span id="percentage-max">of 100</span>
+        </div>
+
+        <div class="left-subtitle">
+          <span>Great</span>
+        </div>
+
+        <div class="left-text">
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right-title">
+          <span>Summary</span>
+        </div>
+
+        <div class="cards" id="card1">
+          <div class="inside-cards">
+            <i data-feather="zap" class="icons" id="icon-1"></i>
+            <span class="text-inside" id="text-1">Reaction</span>
+          </div>
+          <span class="inside-percentage">80 / 100</span>
+        </div>
+
+        <div class="cards" id="card2">
+          <div class="inside-cards">
+            <i data-feather="activity" class="icons" id="icon-2"></i>
+            <span class="text-inside" id="text-2">Memory</span>
+          </div>
+          <span class="inside-percentage">80 / 100</span>
+        </div>
+
+        <div class="cards"  id="card3">
+          <div class="inside-cards">
+            <i data-feather="message-circle" class="icons" id="icon-3"></i>
+            <span class="text-inside" id="text-3">Verbal</span>
+          </div>
+          <span class="inside-percentage">80 / 100</span>
+        </div>
+
+        <div class="cards"  id="card4">
+          <div class="inside-cards">
+            <i data-feather="eye" class="icons" id="icon-4"></i>
+            <span class="text-inside" id="text-4">Visual</span>
+          </div>
+          <span class="inside-percentage">80 / 100</span>
+        </div>
+
+        <button type="submit" class="btn">Continue</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
